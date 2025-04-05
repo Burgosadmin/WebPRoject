@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #19611f;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #7a8cdf;
+  padding: 15px 0;
+  color: rgb(143, 145, 150);
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: rgb(28, 104, 134);
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: rgb(44, 49, 122);
+  text-decoration: none;
+  font-size: 1em;
+  transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+  color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+  background: url("/images/restaurant-hero.jpg") no-repeat center center/cover;
+  text-align: center;
+  padding: 100px 0;
+  color: rgb(92, 33, 107);
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+/* Testimonials */
+.testimonials {
+  background-color: rgb(65, 79, 138);
+  padding: 50px 0;
+  text-align: center;
+}
+
+.testimonial {
+  background-color: #663d96;
+  padding: 15px;
+  margin: 15px auto;
+  width: 60%;
+  border-radius: 10px;
+}
+
+/* Menu Section */
+.menu {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.menu-section {
+  background-color: rgb(156, 90, 209);
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section h2 {
+  color: #333;
+}
+
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #386dcf;
+}
+
+.dish {
+  font-weight: bold;
+}
+
+.price {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: rgb(62, 123, 214);
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}

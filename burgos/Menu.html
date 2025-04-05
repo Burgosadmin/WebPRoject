@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ohahayy Restaurant - Menu</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+      }
+
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1200px;
+      }
+
+      /* Navbar */
+      .navbar {
+        background-color: #333;
+        padding: 15px 0;
+        color: white;
+      }
+
+      .navbar .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+
+      .nav-links {
+        list-style: none;
+        padding: 0;
+        display: flex;
+      }
+
+      .nav-links li {
+        margin: 0 15px;
+      }
+
+      .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 1em;
+        transition: 0.3s;
+      }
+
+      .nav-links a:hover,
+      .nav-links .active {
+        color: #ffcc00;
+      }
+
+      /* Menu Section */
+      .menu {
+        padding: 50px 0;
+        text-align: center;
+      }
+
+      .menu h1 {
+        font-size: 2.5em;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      .menu-section {
+        background-color: white;
+        padding: 20px;
+        margin: 20px auto;
+        width: 80%;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .menu-section h2 {
+        color: #333;
+        font-size: 2em;
+        border-bottom: 2px solid #ff6600;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+
+      .menu-section ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .menu-section li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .dish {
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+
+      .price {
+        color: #ff6600;
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+
+      .menu-section img {
+        width: 150px; /* Adjust the size as needed */
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a href="index.html">Ohahayy Restaurant</a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="menu">
+        <div class="container">
+          <h1>Our Menu</h1>
+
+          <!-- Appetizers Section -->
+          <div class="menu-section">
+            <h2>Appetizers</h2>
+
+            <img
+              <img
+              src="image/best-appetizer-recipes.jpg"
+              alt="Appetizers"
+              class="menu-img"
+            />
+            <ul>
+              <li>
+                <span class="dish">Lumpia</span>
+                <span class="price">PHP 120</span>
+                <p>Fried spring rolls with vegetables and meat</p>
+              </li>
+              <li>
+                <span class="dish">Pancit Bihon</span>
+                <span class="price">PHP 100</span>
+                <p>Stir-fried rice noodles with vegetables and meat</p>
+              </li>
+              <li>
+                <span class="dish">Kwek-Kwek</span>
+                <span class="price">PHP 120</span>
+                <p>Deep-fried quail eggs in orange batter with sea grapes</p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Main Course Section -->
+          <div class="menu-section">
+            <h2>Main Course</h2>
+            <img
+              <img
+              src="image/3Course-Hero-1.jpg"
+              alt="Appetizers"
+              class="menu-img"
+            <ul>
+              <li>
+                <span class="dish">Adobo with Rice</span>
+                <span class="price">PHP 150</span>
+                <p>Classic chicken adobo in soy-vinegar sauce</p>
+              </li>
+              <li>
+                <span class="dish">Lechon Kawali</span>
+                <span class="price">PHP 180</span>
+                <p>Crispy pork belly with liver sauce</p>
+              </li>
+              <li>
+                <span class="dish">Sinigang</span>
+                <span class="price">PHP 160</span>
+                <p>Tamarind soup with pork/beef/shrimp</p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Desserts Section -->
+          <div class="menu-section">
+            <h2>Desserts</h2>
+            <img
+              <img
+              src="/burgos/image/72f90f0452c521032679ae292eaaf86a.jpg"
+              alt="Appetizers"
+              class="menu-img"
+            <ul>
+              <li>
+                <span class="dish">Leche Flan</span>
+                <span class="price">PHP 90</span>
+                <p>Caramel custard dessert</p>
+              </li>
+              <li>
+                <span class="dish">Buko Pandan</span>
+                <span class="price">PHP 80</span>
+                <p>Coconut pudding with pandan jelly</p>
+              </li>
+              <li>
+                <span class="dish">Halo-Halo</span>
+                <span class="price">PHP 100</span>
+                <p>Mixed dessert with shaved ice and ube ice cream</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Ohahayy Restaurant. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
